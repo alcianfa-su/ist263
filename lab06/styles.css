@@ -4,7 +4,7 @@ h1, h2 { color: slategrey;}
 
 .special{color: steelblue; } 
 
-.evenrow{property-background-color: Steelblue; }  
+.evenrow{background-color: Steelblue; }  
 
 h1 {font-face: 8 em; } 
 h2 {font-face: 5 em; } 
