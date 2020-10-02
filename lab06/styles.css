@@ -1,10 +1,10 @@
 body {font-face: "Times New Roman", Times, serif;} 
 
-h1, h2 { color: slategrey;} 
+h1, h2 { color: navy;} 
 
-.special{color: steelblue; } 
+.special{color: lightgrey; } 
 
-.evenrow{background-color: Steelblue; }  
+.evenrow{background-color: lightslategray; }  
 
 h1 {font-face: 8 em; } 
 h2 {font-face: 5 em; } 
