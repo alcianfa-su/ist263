@@ -11,3 +11,7 @@ nav{background-color:#EF233C;}
 nav a {color:#??????;} 
 
 nav a:hover {background-color: #D90429;} 
+
+nav{padding:10px} 
+
+nav{margin-bottom:30px} 
