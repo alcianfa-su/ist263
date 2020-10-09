@@ -9,3 +9,5 @@ text{color: #2B2D42;}
 nav{background-color:#EF233C;} 
 
 nav a {color:#??????;} 
+
+nav a:hover {background-color: #D90429;} 
