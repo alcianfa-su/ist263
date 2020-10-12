@@ -15,5 +15,6 @@ nav{padding:10px}
 nav{margin-bottom:30px} 
 
 <style> 
-.quote {float: right} 
+.quote {float: right;} 
+.clear {clear: both;}
 </style> 
