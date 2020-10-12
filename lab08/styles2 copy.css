@@ -15,6 +15,6 @@ nav{padding:10px}
 nav{margin-bottom:30px} 
 
 <style> 
-.responsive .left {float: left;} 
-.responsive .right {float: right;} 
+.left {float: left;} 
+.right {float: right;} 
 </style> 
