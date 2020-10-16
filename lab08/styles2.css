@@ -25,8 +25,8 @@ nav{margin-bottom:30px}
             .righttt{float: right;}
 
             .secondcontainer {display: flex; padding: 20px;}
-            .box3 {flex: 1; order: 1; background-color: yellow; border-radius: 1em;}  
-            .box4 {flex: 1; order: 2; background-color: yellow; border-radius: 1em;}
+            .box3 {flex: 1; order: 1; background-color: white; border-radius: 1em;}  
+            .box4 {flex: 1; order: 2; background-color: white; border-radius: 1em;}
             .lefttt2{float: left;} 
             .righttt2{float:right;}  
 </style> 
@@ -34,9 +34,9 @@ nav{margin-bottom:30px}
 ____________________________________________________________
 
 <style> 
-.firstcontainer, .secondcontainer { margin: 0; padding: 5px; background-color: #349beb; } 
+.firstcontainer, .secondcontainer { margin: 0; padding: 7px; background-color: #349beb; } 
 
-.box1, .box2, .box3, .box4 { margin: 10px; padding: 5px; background: yellow;} 
+.box1, .box2, .box3, .box4 { margin: 5px; padding: 5px; background: white;} 
   
 flex-direction:row; 
 
