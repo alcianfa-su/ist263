@@ -1,0 +1,29 @@
+body{background-color: #D4DADC;} 
+
+a:link{color: #01080a;} 
+
+text{color: #2460c7;} 
+
+nav{background-color:#EF233C;} 
+
+nav a {color:#??????;} 
+
+nav a:hover {background-color: #D90429;} 
+
+nav{padding:10px} 
+
+nav{margin-bottom:30px} 
+
+.left {float: left;} 
+.right {float: right;} 
+ 
+.parentcontainer, .parentcontainer2 {display: flex; padding: 20px;background-color: white; border-radius: 1em; margin: 10px} 
+    .form {flex: 1; order: 1; float: left;}  
+    .map {flex: 1; order: 2; float: right;} 
+
+    .address {flex: 1; order: 1; float: left;}  
+    .linkedinstuff {flex: 1; order: 2; float: right;} 
+
+.address, .linkedinstuff, .map, .form { margin: 5px; padding: 5px; background: white;} 
+
+
