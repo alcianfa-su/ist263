@@ -26,7 +26,8 @@ nav{margin-bottom:30px}
 
 .address, .linkedinstuff, .map, .form { margin: 5px; padding: 5px; background: white;} 
 
-.sizing {max-width:100;height: auto;}
+.sizing {max-width:100%; height: auto;}
 .parentcontainer2 {flex-wrap: wrap;} 
 
-@media only screen and (max-width: 320px) 
+@media screen and (max-width: 600px) {.topnav a {display:none ;}
+@media screen and (max-width: 320px) {.topnav a {display: block;}
