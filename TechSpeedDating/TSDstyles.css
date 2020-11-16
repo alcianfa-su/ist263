@@ -1,0 +1,98 @@
+body{background-color: black;} 
+
+a:link{color: blue;} 
+
+text{color: white;} 
+
+nav{background-color: ;} 
+
+nav a {color: black;} 
+
+nav a:hover {background-color: lightgrey;} 
+
+nav{padding:10px} 
+
+nav{margin-bottom:30px} 
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px; }
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: lightslategray;
+    color: white;
+    font-size: 30px;
+    font-family: Impact, Charcoal, sans-serif; 
+} 
+
+.title {padding:20px;} 
+
+p {color: white; font-family: "Times New Roman", Times, serif; font-size: large; display: center;} 
+h1,h3 {color: white; font-family: "Times New Roman", Times, serif;} 
+h2 {color: white; font-family: "Times New Roman", Times, serif; align: center;} 
+
+{
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+
+  .margincontainer {margin: 30px;} 
+
+  .btn {
+    border: none; 
+    color: white; 
+    padding: 14px 28px; 
+    cursor: pointer;
+    text-align: center; 
+    display: inline-block;
+    font-size: 16px; 
+    float: right;
+  } 
+  .computer,.healthcare, .restaurant, .advertising, .entertainment {background-color: lightslategray; } 
+  
+ .firstimage, .secondimage, .thirdimage, .fourthimage, .fifthimage {float: left; padding: 14px 28px;} 
+
+ footer {color: white;} 
+
+
+ .videoall {display: flex; padding: 20px; border-radius: 1em; margin: 10px;flex-wrap: wrap;} 
+    .vid1, .vid3, .vid5 {flex: 1; order: 1; float: left; margin: 5px; padding: 5px;}  
+    .vid2, .vid4, .vid6 {flex: 1; order: 2; float: right; margin: 5px; padding: 5px;} 
+
+.intern1, .intern2, .intern3, .intern4, .intern5, .but1, .but2, .but3, .but4, .but5 {display: flex; padding: 20px; border-radius: 1em; margin: 10px;flex-wrap: wrap;}
+
+.intern1, .intern2, .intern3, .intern4, .intern5, {flex: 1; order: 1; float: left; margin: 5px; padding: 5px;} 
+
+.but1, .but2, .but3, .but4, .but5 {flex: 1; order: 2; float: center; display: block;}  
+
+a:link, a:visited {
+  background-color: lightslategray;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; 
+  font-stretch: wider; 
+  font-size: 20px; 
+  border-radius: 8px; 
+  border: 2px solid lightblue; 
+  
+} 
