@@ -8,24 +8,26 @@
         <link rel="stylesheet" href="TSDstyles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     </head>
 
     <body> 
+        
+        <img src="../pictures/TSDlogo.jpg" alt="logo" style="width:8%"> 
+        
+
         <div class="topnav"> <nav> 
-        <hr>
-        <img src="" alt="logo" style="width:6%">
-        <a href="TSDhome.html"  tabindex="5">Home</a>
-        <a href="TSDinternships.html"  tabindex="4">Internship Board</a>
+        <a href="TSDhome.html"  tabindex="5">Home </a> | 
+        <a href="TSDinternships.html"  tabindex="4">Internship Board </a> | 
         <a href="TSDskills.html"  tabindex="3">Skills</a> 
-        <hr> 
+        
         </nav>
         </div> 
 
         
         <div class="header"> 
-            <h1>TECHNOLOGY SPEED DATE</h1>
-             <p>The Future of Interning</p>
+            <img src="../pictures/TSDbanner.jpg" alt="banner"> 
+             
         </div>
         
         <div class="title"> 
@@ -33,7 +35,7 @@
         <p> Technology speed date is a service that allows college students to have exposure to unique tools and applications that can enhance performance in the workplace. By learning about these various technologies, students can then educate future employers or coworkers about these productivity enhancers. 
         </p>
         
-        <h1>Why is it useful?</h1>
+        <h1>Why is it Useful?</h1>
         <p>Growing up in the information age, current students and recent graduates are expected to know new  technologies that older generations are not quite aware of. From internships and recent entry level hirings, employers are looking for these young employees to aid the company in new productive ways. Students coming out of college are expected to know “technology hacks” that will help the company be more productive with everyday tasks. <br> <br> 
 
             The reality is that this does not happen.<br> <br> 
@@ -41,7 +43,7 @@
             Students rarely know of new applications that can help the company in a new way. Technology Speed date is here to help that ongoing problem and to have our users stand out in the workplace. By having an understanding of new applications and spreading the word about them in the office, the intern or recent hiree is instantly more valuable.  (edit) <br> <br> 
             
             
-            It is imperative that students know technological applications that enhance productivity.<br> <br> Check below to get started! <br> <br> <br> ** using Javascript on this page**
+            It is imperative that students know technological applications that enhance productivity.<br> <br> Check below to get started! <br> <br> <br> 
         </p> 
          
         </div> 
@@ -51,44 +53,112 @@
         <h1>Applications and Extensions</h1> 
         <p>Unique Tools to help productivity:</p>
 
-        <div class="row">
-            <div class="column">
-            <img src="../pictures/trackingbutton.jpg" alt="trackingbutton" style="width:100%">
-            <p>TrackingTime is a collaborative, cloud-based time tracking service that helps businesses of any size manage their projects, track working times, and measure productivity. TrackingTime allows you to keep a timer on your browser for specific assignments in order to boost productivity in the workplace. A feature of the application is an updated timesheet that can automatically sync to other employees’ calendar to organize and prioritize team tasks with due dates and times. </p>
-            </div>
-  
-            <div class="column">
-            <img src="../pictures/loom.jpg" alt="loom" style="width:100%">
-            <p>Loom is a professional video messaging application that can record your screen, voice, and face to create an instantly shareable video in less time than it would take to type an email. Loom helps productivity in the workplace by reducing the amount of time it would take to walk to someone's desk and show them how to do a task, or instead of typing up an email during a busy time of the day, you can just send a simple recording of you.</p>
-            </div>
-  
-            <div class="column">
-            <img src="../pictures/roamresearch.jpeg" alt="roamresearch" style="width:100%"> 
-            <p>Roam research is a note-taking application for networked thought that is specifically designed to help you connect your thoughts and group them together in related bits of information. The application consists of a visual diagram that is based around a central topic and You essentially create pages that link to other pages around that particular topic without the use of copy/paste. </p>
-            </div>
-            
-            <div class="column">
-            <img src="../pictures/slackbot.jpeg" alt="Slackbot" style="width:100%">
-            <p>Slackbot is Slack’s built-in self service support system. You can use slackbot to add customized automatic responses, remind yourself to do a task, read an article, or send reminders and notifications to team members.  One cool feature of a slackbot is that You can also program it with answers to frequently asked questions, cutting down time that is wasted on repetitive tasks.</p>
-            </div>
-      
-            <div class="column">
-            <img src="../pictures/colorpicker.png" alt="colorpicker" style="width:100%">
-            <p>Color picker is a simple application that can be downloaded on your web browser that allows you to select colors from any web page and access the RGB values. This is helpful when you need to access a certain color for a logo or specific brand matching.</p>
-            </div>
-      
-            <div class="column">
-            <img src="../pictures/Grammarly.png" alt="grammarly" style="width:100%"> 
-            <p>Grammarly is an application that flags potential issues in the text and makes context-specific suggestions to help with grammar, spelling and usage, wordiness, style, punctuation, and even plagiarism. This app is beneficial in the workplace because it not only corrects errors, but makes sure the writing is clear and easy to read. One feature to this application is that it can be used directly in Microsoft Office and Google Docs.</p>
-            </div> 
+        <div id="slideshow-container">
+        <script>  
+            function appsoff () { 
+                document.getElementById('TrackingTime').style.display = 'none'; 
+                document.getElementById('Loom').style.display = 'none';
+                document.getElementById('Roam').style.display = 'none';
+                document.getElementById('Slackbot').style.display = 'none';
+                document.getElementById('ColorPicker').style.display = 'none';
+                document.getElementById('Grammarly').style.display = 'none';
+     
+                document.getElementById('TrackingTimeinfo').style.display = 'none'; 
+                document.getElementById('Loominfo').style.display = 'none';
+                document.getElementById('Roaminfo').style.display = 'none';
+                document.getElementById('Slackbotinfo').style.display = 'none';
+                document.getElementById('ColorPickerinfo').style.display = 'none';
+                document.getElementById('Grammarlyinfo').style.display = 'none';
+            } 
+            function TrackingTimeon () { 
+             document.getElementById('TrackingTime').style.display = 'block'; 
+             document.getElementById('TrackingTimeinfo').style.display = 'block'; 
+            } 
+            function Loomon () { 
+             document.getElementById('Loom').style.display = 'block'; 
+             document.getElementById('Loominfo').style.display = 'block';
+            } 
+            function Roamon () { 
+             document.getElementById('Roam').style.display = 'block'; 
+             document.getElementById('Roaminfo').style.display = 'block';
+            } 
+            function Slackboton () { 
+             document.getElementById('Slackbot').style.display = 'block'; 
+             document.getElementById('Slackbotinfo').style.display = 'block';
+            } 
+            function ColorPickeron () { 
+             document.getElementById('ColorPicker').style.display = 'block'; 
+             document.getElementById('ColorPickerinfo').style.display = 'block';
+            } 
+            function Grammarlyon () { 
+             document.getElementById('Grammarly').style.display = 'block'; 
+             document.getElementById('Grammarlyinfo').style.display = 'block';
+            } 
+        </script> 
+
+         <div class="clear"></div> 
+            <div id="thumbnails">
+                <img src="../pictures/trackingbutton.jpg" alt="TrackingTime" id="TrackingTimethumb" onclick= "appsoff (); TrackingTimeon ();">
+                <img src="../pictures/loom.jpg" alt="Loom" id="Loomthumb" onclick= "appsoff (); Loomon ();">
+                <img src="../pictures/roamresearch.jpeg" alt="Roam" id="Roamthumb" onclick= "appsoff (); Roamon ();">
+                <img src="../pictures/slackbot.jpeg" alt="Slackbot" id="Slackbotthumb" onclick= "appsoff (); Slackboton ();">
+                <img src="../pictures/colorpicker.png" alt="ColorPicker" id="ColorPickerthumb" onclick= "appsoff (); ColorPickeron ();">
+                <img src="../pictures/Grammarly.png" alt="Grammarly" id="Grammarlythumb" onclick= "appsoff (); Grammarlyon ();">
                 
-        </div>
+            </div>
+            <div id="bigimages" >
+                <img src="../pictures/trackingbutton.jpg" alt="TrackingTime" id="TrackingTime" width="700px" height="400px"> 
+                <img src="../pictures/loom.jpg" alt="Loom" id="Loom" width="700px" height="400px">
+                <img src="../pictures/roamresearch.jpeg" alt="Roam" id="Roam" width="700px" height="400px">
+                <img src="../pictures/slackbot.jpeg" alt="Slackbot" id="Slackbot" width="700px" height="400px">
+                <img src="../pictures/colorpicker.png" alt="ColorPicker" id="ColorPicker" width="700px" height="400px">
+                <img src="../pictures/Grammarly.png" alt="Grammarly" id="Grammarly" width="700px" height="400px">
+            </div> 
+        
+            <div id="appinfo" >        
+                <div id="TrackingTimeinfo">
+                    <h1>Tracking Time</h1>
+                    <p>TrackingTime is a collaborative, cloud-based time tracking service that helps businesses of any size manage their projects, track working times, and measure productivity. TrackingTime allows you to keep a timer on your browser for specific assignments in order to boost productivity in the workplace. A feature of the application is an updated timesheet that can automatically sync to other employees’ calendar to organize and prioritize team tasks with due dates and times.<br><br> How to Use:<br> <iframe width="560" height="315" src="https://www.youtube.com/embed/uKhKp2Bck6U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br><br> Download: <br> <a href="https://chrome.google.com/webstore/detail/trackingtime-time-tracker/knailkjkjcfegledhjhcfacdngnicimb?hl=en-US">Click Here!</a> </p>
+                </div> 
+        
+                <div id="clearinfo"> 
+        
+                <div id="Loominfo">
+                    <h1>Loom</h1>
+                    <p>Loom is a professional video messaging application that can record your screen, voice, and face to create an instantly shareable video in less time than it would take to type an email. Loom helps productivity in the workplace by reducing the amount of time it would take to walk to someone's desk and show them how to do a task, or instead of typing up an email during a busy time of the day, you can just send a simple recording of you.<br><br> How to Use:<br> <iframe width="560" height="315" src="https://www.youtube.com/embed/tR_t9owJpRA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br> Download:<br>  <a href="https://chrome.google.com/webstore/detail/loom-for-chrome/liecbddmkiiihnedobmlmillhodjkdmb">Click Here!</a></p>
+                </div>
+                <div id="Roaminfo">
+                    <h1>Roam Research</h1>
+                    <p>Roam research is a note-taking application for networked thought that is specifically designed to help you connect your thoughts and group them together in related bits of information. The application consists of a visual diagram that is based around a central topic and You essentially create pages that link to other pages around that particular topic without the use of copy/paste.<br><br> How to Use:<br><iframe width="560" height="315" src="https://www.youtube.com/embed/A_7_8AAkV7M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>Download:<br><a href=" https://roamresearch.com/">Click Here!</a></p>
+                </div>
+                <div id="Slackbotinfo">
+                    <h1>Slackbot</h1>
+                    <p>Slackbot is Slack’s built-in self service support system. You can use slackbot to add customized automatic responses, remind yourself to do a task, read an article, or send reminders and notifications to team members.  One cool feature of a slackbot is that You can also program it with answers to frequently asked questions, cutting down time that is wasted on repetitive tasks.<br><br>How to Use:<br><iframe width="560" height="315" src="https://www.youtube.com/embed/KJ5bFv-IRFM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>Download:<br> <a href=" https://slack.com/">Click Here!</a></p>
+                </div>
+                <div id="ColorPickerinfo">
+                    <h1>Color Picker</h1>
+                    <p>Color picker is a simple application that can be downloaded on your web browser that allows you to select colors from any web page and access the RGB values. This is helpful when you need to access a certain color for a logo or specific brand matching.<br><br>How to Use:<br><iframe width="560" height="315" src="https://www.youtube.com/embed/KQeV3DYgpWY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>Download:<br><a href="https://chrome.google.com/webstore/detail/color-picker/bmgndajcmflcehdilbapamikndkdlfeo">Click Here!</a></p>
+                </div>
+                <div id="Grammarlyinfo">
+                    <h1>Grammarly</h1>
+                    <p>Grammarly is an application that flags potential issues in the text and makes context-specific suggestions to help with grammar, spelling and usage, wordiness, style, punctuation, and even plagiarism. This app is beneficial in the workplace because it not only corrects errors, but makes sure the writing is clear and easy to read. One feature to this application is that it can be used directly in Microsoft Office and Google Docs.<br><br>How to Use:<br><iframe width="560" height="315" src="https://www.youtube.com/embed/0Tp6J8yaTmo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>Download:<br> <a href="https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en">Click Here!</a> </p>
+                </div>
+                </div> 
+            </div> 
+         
+
     
-        <footer>
+        </div> 
+        
+    
+    </body>
+
+        
+    <footer>
          <hr>     
              &copy; 2020 
         </footer> 
    
-    </body>
+   
 </html> 
 
